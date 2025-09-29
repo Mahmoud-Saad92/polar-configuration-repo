@@ -1,2 +1,2 @@
-# polar-configuration-repo
-A configuration repository for polar book store
+# `Bazinga (BZA)` configuration-repo
+A configuration repository for polar bookstore
