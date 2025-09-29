@@ -1,0 +1,9 @@
+catalog:
+  test-data:
+    enabled: true
+
+logging:
+  level:
+    com.bazinga.eg.catalogservice: debug
+    org.springframework.boot: debug
+    org.springframework.web: debug
