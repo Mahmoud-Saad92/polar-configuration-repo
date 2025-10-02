@@ -1,3 +1,6 @@
+catalog:
+  greeting-message: "Welcome to bazinga's books DEV catalog!"
+
 logging:
   level:
     com.bazinga.eg.catalogservice: info

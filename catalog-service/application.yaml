@@ -12,8 +12,15 @@ springdoc:
   show-actuator: false
 
 catalog:
+  greeting-message: "Welcome to bazinga's books catalog!"
   test-data:
     enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 
 logging:
   level:
