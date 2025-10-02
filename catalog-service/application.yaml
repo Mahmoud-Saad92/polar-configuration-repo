@@ -16,6 +16,12 @@ catalog:
   test-data:
     enabled: false
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
 logging:
   level:
     com.bazinga.eg.catalogservice: warn
