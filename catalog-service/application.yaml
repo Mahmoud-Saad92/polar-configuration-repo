@@ -27,7 +27,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh
+        include: refresh,threads,metrics,health
 
 logging:
   level:

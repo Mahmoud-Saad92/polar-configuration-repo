@@ -1,0 +1,5 @@
+logging:
+  level:
+    com.bazinga.eg.orderservice: info
+    org.springframework.boot: info
+    org.springframework.web: info
