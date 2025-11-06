@@ -7,6 +7,11 @@ spring:
       initial-size: ${POSTGRES_CONNECTION_POOL_INITIAL_SIZE}
       max-size: ${POSTGRES_CONNECTION_POOL_MAX_SIZE}
       max-create-connection-time: ${POSTGRES_CONNECTION_POOL_MAX_CREATE_CONNECTION_TIME}
+  flyway:
+    enabled: true
+    user: '${POSTGRES_USER}'
+    password: '${POSTGRES_PASSWORD}'
+    url: jdbc:postgresql://${POSTGRES_HOSTNAME}:${POSTGRES_PORT}/${POSTGRES_DB}?currentSchema=${POSTGRES_SCHEMA}
 
 springdoc:
   api-docs:
