@@ -13,6 +13,12 @@ spring:
     password: '${POSTGRES_PASSWORD}'
     url: jdbc:postgresql://${POSTGRES_HOSTNAME}:${POSTGRES_PORT}/${POSTGRES_DB}?currentSchema=${POSTGRES_SCHEMA}
 
+polar:
+  catalog-service-uri: http://${CATALOG_SERVICE_URI}:${CATALOG_SERVICE_PORT}
+  timeout-duration-seconds: ${TIMEOUT_DURATION_SECONDS}
+  retry-attempts: ${RETRY_ATTEMPTS}
+  retry-initial-backoff-ms: ${RETRY_INITIAL_BACKOFF_MS}
+
 springdoc:
   api-docs:
     path: /v3/api-docs
