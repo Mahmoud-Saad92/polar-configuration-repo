@@ -1,0 +1,7 @@
+logging:
+  level:
+    com.bazinga.eg.edgeservice: info
+    org.springframework.boot: info
+    org.springframework.cloud.gateway: info
+    org.springframework.web: info
+    io.github.resilience4j: info
